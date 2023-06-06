@@ -15,11 +15,11 @@ jobs:
         uses: raldozamora/blue-action@main
         with:
           tm_repository_id: 2
-          tm_file: hello.sol
+          tm_source: hello.sol
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
-          API_URL: ${{ secrets.API_URL }}
+          TM_TOKEN_KEY: ${{ secrets.TM_TOKEN_KEY }}
+          TM_API_URL: ${{ secrets.TM_API_URL }}
       - name: Upload result
         uses: actions/upload-artifact@v2
         with:
