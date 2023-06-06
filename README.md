@@ -1,2 +1,3 @@
-# blue-ga-user
-use blue action
+# bluemachine_ga_user
+bluemachine_ga_user
+2
