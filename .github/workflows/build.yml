@@ -14,7 +14,7 @@ jobs:
       - name: bluemachine Scan
         uses: raldozamora/blue-action@main
         with:
-          tm_repository_id: 2
+          tm_repository_id: 1
           tm_source: hello.sol
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
