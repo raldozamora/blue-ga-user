@@ -14,7 +14,7 @@ jobs:
       - name: bluemachine Scan
         uses: raldozamora/blue-action@main
         with:
-          tm_repository_id: 1
+          tm_repository_id: 17
           tm_source: contract1.sol
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
