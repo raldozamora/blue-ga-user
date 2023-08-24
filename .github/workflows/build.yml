@@ -19,7 +19,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TM_TOKEN_KEY: ${{ secrets.TM_TOKEN_KEY }}
-          TM_API_URL: ${{ TM_API_URL }}
+          TM_API_URL: ${{ secrets.TM_API_URL }}
       - name: Upload result
         uses: actions/upload-artifact@v3
         with:
