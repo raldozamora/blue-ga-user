@@ -15,11 +15,10 @@ jobs:
         uses: raldozamora/blue-action@main
         with:
           tm_repository_id: 1
-          tm_source: flor_go.zip
+          tm_source: flor_gxo.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TM_TOKEN_KEY: ${{ secrets.TM_TOKEN_KEY }}
-          TM_API_URL: ${{ secrets.TM_API_URL }}
       - name: Upload result
         uses: actions/upload-artifact@v3
         with:
